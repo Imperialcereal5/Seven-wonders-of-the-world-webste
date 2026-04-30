@@ -1,0 +1,141 @@
+html {
+    /*background-color:#FBE1E5;*/
+}
+body {
+    background-image: url(wonders3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.doc {
+    position: absolute;
+    top:100px;
+    left: 0px;
+    text-align: center;
+}
+#flag {
+    width: 40px;
+    height: 20px;
+}
+.infoBox {
+    position: relative;
+    left: 0;
+    top: 1080px;
+    height: 980px;
+    width:1920px;
+    background-color: black;
+    display: block;
+    color:white;
+    padding-top:100px;
+    font-size:200%;
+}
+#langBtn {
+    position:absolute;
+    left:1830px;
+    top:40px
+}
+.navBar {
+    background-color:#5BCEFA;
+    height: 100px;
+    padding-left: 10px;
+    position:fixed;
+    left:0;
+    top:0;
+    width:1910px;
+    border-bottom: ridge;
+    z-index: 1;
+}
+.navbar a {
+    position:absolute;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color:black;
+    width:95px;
+    left:1700px;
+    font-size:90%;
+    padding-right:0;
+    font-family: Arial;
+    background-color:#F5A9B8;
+    text-decoration: none;
+}
+.navBarBtn {
+    position:absolute;
+    height:100px;
+    left:1700px;
+    width:100px;
+    border-style:none;
+    border-left:solid;
+    border-right:solid;
+    background-color: #F5A9B8;
+}
+.navBarBtn:hover {
+    background-color:#b37b86;
+}
+.dropDownContent a {
+    display:flex;
+    position:relative;
+    left:0px;
+    top:0px;
+    min-height:40px;
+    width:92px;
+    border-right:solid black;
+}
+.dropDownContent {
+    display:none;
+    position:absolute;
+    width:92px;
+    left:1702px;
+    top:100px;
+    z-index: 1;
+    border: solid black;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: #F5A9B8;
+}
+.dropDownContent a:hover{
+    background-color:#b37b86;
+}
+#text0 {
+    position:relative;
+    font-family: "SansSerif";
+    font-size:200%;
+    width:1000px;
+}
+#text2 {
+    left:1605px;
+}
+#box2 {
+    position:relative;
+    top: 2160px;
+}
+#box3 {
+    position:relative;
+    top: 3240px;
+}
+#box4 {
+    position:relative;
+    top: 4320px;
+}
+#box5 {
+    position:relative;
+    top: 5400px;
+}
+#box6 {
+    position: relative;
+    top:6480px;
+}
+#box7 {
+    position:relative;
+    top:7560px;
+}
+#box8 {
+    position: relative;
+    top: 8640px
+}
+#box9 {
+    position:relative;
+    top: 9720px;
+}
+.show {display: block}
