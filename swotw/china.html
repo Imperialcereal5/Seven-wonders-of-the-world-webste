@@ -1,8 +1,24 @@
 <html>
 <head>
-<link type="text/css", rel="stylesheet", src="wonders.css">
-<script src="wonders.js"></script>
+    <title>Home</title>
+    <link type="text/css" rel="stylesheet" href="wonders.css">
+    <script src="wonders.js"></script>
 </head>
 <body>
+<div class="navBar">
+    <button onclick=changeLang() id="langBtn"><img src="badFlag.png" id="flag"></button>
+    <button class="navBarBtn" id="text1" onclick=showDD()>Wonders</button>
+    <div class="dropDownContent">
+        <a class="ddLink" href="china.html?lang=EN" id="text3">The Great Wall of China</a>
+        <a class="ddLink" href="machu.html">Machu Picchu</a>
+        <a class="ddLink" href="taj.html" id="text4">The Taj Mahal</a>
+        <a class="ddLink" href="petra.html">Petra</a>
+        <a class="ddLink" href="rome.html" id="text5">The Colosseum</a>
+        <a class="ddLink" href="christ.html" id="text6">Christ the Redeemer</a>
+        <a class="ddLink" href="itza.html">Chichén Itzá</a>
+    </div>
+    <a class="navBarBtn" id="text2" href="home.html">Home</a>
+    <p id="text0">The 7 Wonders of the World</p>
+</div>
 </body>
 </html>

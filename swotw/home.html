@@ -4,20 +4,20 @@
     <link type="text/css" rel="stylesheet" href="wonders.css">
     <script src="wonders.js"></script>
 </head>
-<body>
+<body class="home">
 <div class="navBar">
     <button onclick=changeLang() id="langBtn"><img src="badFlag.png" id="flag"></button>
     <button class="navBarBtn" id="text1" onclick=showDD()>Wonders</button>
     <div class="dropDownContent">
-        <a href="china.html" id="text3">The Great Wall of China</a>
-        <a href="machu.html">Machu Picchu</a>
-        <a href="taj.html" id="text4">The Taj Mahal</a>
-        <a href="petra.html">Petra</a>
-        <a href="rome.html" id="text5">The Colosseum</a>
-        <a href="christ.html" id="text6">Christ the Redeemer</a>
-        <a href="itza.html">Chichén Itzá</a>
+        <a class="ddLink" href="china.html" id="text3">The Great Wall of China</a>
+        <a class="ddLink" href="machu.html">Machu Picchu</a>
+        <a class="ddLink" href="taj.html" id="text4">The Taj Mahal</a>
+        <a class="ddLink" href="petra.html">Petra</a>
+        <a class="ddLink" href="rome.html" id="text5">The Colosseum</a>
+        <a class="ddLink" href="christ.html" id="text6">Christ the Redeemer</a>
+        <a class="ddLink" href="itza.html">Chichén Itzá</a>
     </div>
-    <a class="navBarBtn" id="text2">Home</a>
+    <a class="navBarBtn" id="text2" href="home.html">Home</a>
     <p id="text0">The 7 Wonders of the World</p>
 </div>
 <div class="doc" id="bg">
@@ -32,7 +32,7 @@
             (N7W) based in Zurich, Switzerland. The winners of this poll are shown below:</p>
     </div>
     <div class="infoBox" id="box2">
-        <h1 id="text10">The Great Wall of China <br> <br></h1>
+        <h1 id="text10">The Great Wall of China<br> <br></h1>
         <p id="text11">The Great Wall of China (traditional Chinese: 萬里長城; simplified Chinese: 万里长城;
             pinyin: Wànlǐ Chángchéng, literally "ten thousand li long wall") is a series of fortifications in
             China. They were built across the historical northern borders of ancient Chinese states and Imperial
@@ -58,19 +58,58 @@
         </a>
     </div>
     <div class="infoBox" id="box4">
-        <p>hm</p>
+        <h1>Taj Mahal</h1>
+        <p id="text13">
+            The Taj Mahal (/ˌtɑːdʒ məˈhɑːl, ˌtɑːʒ -/ TAHJ mə-HAHL, Hindustani: [t̪ɑːd͡ʒ ˈmɛɦ(ɛ)l]; lit. Crown of the Palace')
+            is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. It was
+            commissioned in 1631 by the fifth Mughal emperor, Shah Jahan (r.1628–1658), to house the tomb of his beloved wife,
+            Mumtaz Mahal; it also houses the tomb of Shah Jahan himself. The tomb is the centrepiece of a 17-hectare (42-acre)
+            complex, which includes a mosque and a guest house, and is set in formal gardens bounded on three sides by a crenellated wall.
+        </p>
+        <a class="learnMore" href="taj.html">click here to learn more</a>
     </div>
     <div class="infoBox" id="box5">
-
+        <h1>Petra</h1>
+        <p id="text14">
+            Petra (Arabic: ٱلْبَتْراء, romanised: Al-Batrāʾ; Ancient Greek: Πέτρα, lit.'Rock'), originally known to its inhabitants as Raqmu, is
+            an ancient city and archaeological site in southern Jordan. Famous for its rock-cut architecture and water conduit systems, Petra
+            is also called the "Rose City" because of the colour of the sandstone from which it is carved.
+        </p>
+        <a href="petra.html" class="learnMore">Click here to learn more</a>
     </div>
     <div class="infoBox" id="box6">
-        <p>Wonders of the world</p>
+        <h1 id="text15">Colosseum</h1>
+        <p id="text16">
+            The Colosseum (/ˌkɒ.lə.ˈsiː.əm/ KOL-ə-SEE-əm; Italian: Colosseo [kolosˈsɛːo]) is an elliptical amphitheatre in the centre of the city of Rome,
+            Italy, just east of the Roman Forum. It is the largest ancient amphitheatre ever built, and is the largest standing amphitheatre in the world.
+            Construction began under the Emperor Vespasian (r.69–79 AD) in 72 and was completed in AD 80 under his successor and heir, Titus (r.79–81). Further
+            modifications were made during the reign of Domitian (r.81–96).[3] The three emperors who were patrons of the work are known as the Flavian dynasty,
+            and the amphitheatre was named the Flavian Amphitheatre (Latin: Amphitheatrum Flavium; Italian: Anfiteatro Flavio [aɱfiteˈaːtro ˈflaːvjo]) by later
+            classicists and archaeologists for its association with their family name (Flavius).
+        </p>
+        <a class="learnMore" href="rome.html">Click here to learn more</a>
     </div>
     <div class="infoBox" id="box7">
-        <p>love me some china</p>
+        <h1 id="text17">Christ the Redeemer</h1>
+        <p id="text18">
+            Christ the Redeemer (Portuguese: Cristo Redentor, standard Brazilian Portuguese: [ˈkɾistu ʁedẽˈtoʁ]) is an Art Deco statue of Jesus in Rio de Janeiro, Brazil,
+            created by French-Polish sculptor Paul Landowski and built by Brazilian engineer Heitor da Silva Costa, in collaboration with French engineer Albert Caquot.
+            Romanian sculptor Gheorghe Leonida sculpted the face. Constructed between 1922 and 1931, the statue is 30 metres (98 ft) high, excluding its 8-metre (26 ft)
+            pedestal, and faces east. The arms stretch 28 metres (92 ft) wide. It is made of reinforced concrete and soapstone. Christ the Redeemer differs
+            considerably from its original design, as the initial plan was a large Christ with a globe in one hand and a cross in the other. Although the project organizers
+            originally accepted the design, it later changed to the statue of today, with the arms spread out wide.
+        </p>
+        <a class="learnMore" href="christ.html">Click here to learn more</a>
     </div>
     <div class="infoBox" id="box8">
-
+        <h1>Chichén Itzá</h1>
+        <p id="text19">Chichén Itzá was a large pre-Columbian city built by the Maya people of the Terminal Classic period. The archeological site is located in Tinúm Municipality,
+            Yucatán, Mexico. Chichén Itzá was a major focal point in the Northern Maya Lowlands from the Late Classic (c. AD 600–900) through the Terminal Classic (c. AD 800–900) and into
+            the early portion of the Postclassic period (c. AD 900–1200). The site exhibits a multitude of architectural styles, reminiscent of styles seen in central Mexico and of the Puuc
+            and Chenes styles of the Northern Maya lowlands. The presence of central Mexican styles was once thought to have been representative of direct migration or even conquest from central
+            Mexico, but most contemporary interpretations view the presence of these non-Maya styles more as the result of cultural diffusion.
+        </p>
+        <a class="learnMore" href="itza.html">Click here to learn more</a>
     </div>
     <div class="infoBox" id="box9">
 
