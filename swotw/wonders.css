@@ -44,7 +44,7 @@ html {
     top:0;
     width:1910px;
     border-bottom: ridge;
-    z-index: 1;
+    z-index: 2;
 }
 .navbar a {
     position:absolute;
