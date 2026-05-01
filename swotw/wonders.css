@@ -97,6 +97,52 @@ html {
 .dropDownContent a:hover{
     background-color:#b37b86;
 }
+.infoBar {
+    background-color:black;
+    opacity: 40%;
+    left:1280px;
+    width:640px;
+    height:880px;
+    top:0px;
+    position:absolute;
+}
+.IBcontent {
+    position: absolute;
+    top:0;
+    left:1290px;
+    opacity: 100%;
+    color:white;
+    width:620px;
+    z-index: 1;
+}
+.IBcontent p {
+    min-width:620px;
+}
+.title {
+    font-size:300%;
+    width:640px;
+
+}
+#china {
+    background-image: url("china.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:1920px;
+    height: 880px;
+    overflow: hidden;
+}
+#christ {
+    background-image: url("christ.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:1920px;
+    height: 880px;
+    overflow: hidden;
+}
 #text0 {
     position:relative;
     font-family: "SansSerif";
