@@ -132,7 +132,7 @@ onload = function(event) {
 
 let bg = document.getElementById("bg")
 window.onscroll= function updateBG(x) {
-    if (window.location.href.split('?')[0].split("/")[8]==="home.html") {
+    if (window.location.href.split('?')[0].split("/").includes("home.html")) {
 
         let pageScroll = scrollY / 1080;
         if (scrollY <= 0) {
